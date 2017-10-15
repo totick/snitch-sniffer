@@ -1,11 +1,12 @@
 import random
 
-def find_snitchs():
-    pass
+def find():
+    snitch_count = random.randint(0, 10)
+    return snitch_count
 
 
 def main():
-    snitchs = find_snitchs()
+    snitchs = find()
     print("Found", snitchs, " snitches")
     
     
