@@ -1,8 +1,7 @@
 import random
 
 def find_snitchs():
-    snitch_count = random.randint(0, 10)
-    return snitch_count
+    pass
 
 
 def main():
